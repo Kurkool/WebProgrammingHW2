@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/Index.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+        <!-- generate เลข 4 ตัวหลังของป้ายทะเบียน โดยผู้ใช้สามารถเลือกได้ว่าไม่อยากให้เลขตัวไหนอยู่ในการ generate -->
+        <span class="d-block p-3 text-center text-white bg-primary b4b"></span>
+        <form id="input">
+        <div class = "container">
+                
+    <div class = "row">
+
+       
+    <div class = "col-sm-6 gridline mb-4 my-4">
+            <h2>Car Registration plate Generator</h2>
+            <h4>Unwanted Number in License Plate</h4>
+
+                <table style="width:100%">
+                        <tr>
+                          <th><label><input type="checkbox" class="SelcNum" value="0" >0</label></th>
+                          <th><label><input type="checkbox" class"SelcNum" value="5" >5</label></th> 
+                          
+                        </tr>
+                        <tr>
+                          <td><label><input type="checkbox" class="SelcNum" value="1" >1</label></td>
+                          <td><label><input type="checkbox" class="SelcNum" value="6" >6</label></td>
+                           
+                        </tr>
+                        <tr>
+                                <td><label><input type="checkbox" class="SelcNum" value="2" >2</label></td>
+                                <td><label><input type="checkbox" class="SelcNum" value="7" >7</label></td>
+                              </tr>
+                              <tr>
+                                    <td><label><input type="checkbox" class="SelcNum" value="3" >3</label></td>
+                                    <td><label><input type="checkbox" class="SelcNum" value="8" >8</label></td>
+                                  </tr>
+                                  <tr>
+                                        <td><label><input type="checkbox" class="SelcNum" value="4" >4</label></td>
+                                        <td><label><input type="checkbox" class="SelcNum" value="9" >9</label></td>
+                                      </tr>
+                                      <tr>
+                                            <td colspan="2"><button type="button" class="btn btn-success" onsubmit="Generate()">Success</button></td>
+                                          </tr>
+                      </table>
+
+
+
+
+
+
+
+
+        </div><!--col-sm-6-->
+    
+    
+        <div class = "col-sm-6 mb-4 my-4">
+                <h4>Output</h4>
+                
+                <table width="400" border="1" id="OutputTable"> 
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+
+                </table>
+
+
+        </div> <!--span6-->
+
+
+            </div><!--row-->
+        
+
+
+
+        </div> <!--container-->
+    </form>
+
+
+
+
+
+    
+    
+    
+    
+    
+    
+    <script src="js/Index.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
